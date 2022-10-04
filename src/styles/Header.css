@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 20%) 0 2px 4px -1px, rgb(0 0 0 / 14%) 0 4px 5px 0,
+    rgb(0 0 0 / 12%) 0 1px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100vw;
+}
+
+header p {
+  align-items: center;
+  color: #003be5;
+  display: flex;
+}
+
+header p span {
+  margin: 0 5px;
+}
+
+header .logo {
+  width: 200px;
+}
+
+.total-field {
+  font-weight: 600;
+}
+
+.email-field {
+  color: #2fc18c;
+  cursor: pointer;
+}
